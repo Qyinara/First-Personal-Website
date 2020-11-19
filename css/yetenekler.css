@@ -1,0 +1,117 @@
+body {
+    background: #272333;
+    color:#DEDDE0;
+    font-family: 'Roboto', sans-serif;
+}
+
+
+  ul {
+    list-style-type: none;
+    margin: 1%;
+    padding: 0%;
+    overflow: hidden;
+    border: 1px solid #e7e7e7;
+    background-color: #f3f3f3;
+    border-radius: 30px;
+    display: inline-block;
+  }
+  
+  li {
+    float: left;
+    display: inline;
+  }
+  
+  li a {
+    display: block;
+    color: #666;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+  }
+  
+  li a:hover:not(.active) {
+     background-color: #ddd;
+  }
+  
+  li a.active {
+     color: white;
+  }
+
+
+
+
+  /* Yetenek bar ------ */
+
+
+  * {
+    box-sizing: border-box;
+ }
+ body {
+    font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+
+ }
+ h1 {
+    text-align: center;
+ }
+ .container {
+    width: 59%;
+    background-color: rgb(231, 231, 231);
+    border-radius: 20px;
+
+ }
+ .python, .css, .html, .delphi {
+    text-align: center;
+    font-weight: bolder;
+    padding-top: 4px;
+    padding-bottom: 3px;
+    color: white;
+    border-radius: 20px;
+
+ }
+ .python {
+    width: 90%;
+    background-color: #4caf50;
+    
+
+ }
+ .css {
+    width: 80%;
+    background-color: #2196f3;
+ }
+ .html {
+    width: 65%;
+    background-color: #f44336;
+ }
+ .delphi {
+    width: 60%;
+    background-color: #808080;
+ }
+
+ .skillbar {
+
+    padding-left: 29em;
+ }
+
+ #footer{
+
+   text-align: center;
+   font-size: 0.9rem;
+   color: #ffffff;
+ }
+ p {
+
+   padding-left: 10px;
+   padding-right: 10px;
+   text-align: left;
+   margin-bottom: 2em;
+   text-align: center;
+   font-size: 1.0rem;
+   font-weight: 300;
+   line-height: 1.80;
+   color: #ffffff;
+   font-family: 'Montserrat', sans-serif;
+
+ 
+ 
+}

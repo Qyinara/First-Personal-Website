@@ -1,0 +1,60 @@
+  body {
+    background: #272333;
+    color:#DEDDE0;
+    font-family: 'Roboto', sans-serif;
+}
+
+
+  ul {
+    list-style-type: none;
+    margin: 1%;
+    padding: 0%;
+    overflow: hidden;
+    border: 1px solid #e7e7e7;
+    background-color: #f3f3f3;
+    border-radius: 30px;
+    display: inline-block;
+  }
+  
+  li {
+    float: left;
+    display: inline;
+  }
+  
+  li a {
+    display: block;
+    color: #666;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    /*-- nav bar büyüklüğü */
+    font-sidddze: 30px;
+  }
+  
+  li a:hover:not(.active) {
+     background-color: #ddd;
+  }
+  
+  li a.active {
+     color: white;
+    
+  }
+
+  h1{
+      font-size: 50px;
+  }
+
+  h2{
+     font-size: 25px;
+ }
+
+  #footer{
+     font-size: 0.9rem;
+}
+
+
+  p{
+
+     color: #ffffff;
+}
