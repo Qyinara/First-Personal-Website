@@ -1,5 +1,5 @@
 body {
-    background: #272333;
+  background: #272333;
     color:#DEDDE0;
     font-family: 'Roboto', sans-serif;
   }
@@ -59,3 +59,38 @@ p {
   
   
 }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* burada animation background denemesi yaptım */
+
+
+
+body {
+  background: linear-gradient(-45deg,  black, black, #272333,#272333);
+  background-size: 400% 400%;
+  animation: gradient 13s ease infinite;
+  }
+  
+  @keyframes gradient {
+  0% {
+  background-position: 0% 50%;
+  }
+  50% {
+  background-position: 100% 50%;
+  }
+  100% {
+  background-position: 0% 50%;
+  }
+  }

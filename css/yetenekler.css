@@ -39,79 +39,62 @@ body {
   }
 
 
+  p {
+    padding-left: 10px;
+    padding-right: 10px;
+    margin-bottom: 1.5em;
+    text-align: center;
+    
+    font-weight: 300;
+    line-height: 1.80;
+    color: #ffffff;
+    font-family: 'Montserrat', sans-serif;
 
+  }
+
+  #footer{
+
+    font-size: 0.9rem;
+
+  }
 
   /* Yetenek bar ------ */
 
 
-  * {
-    box-sizing: border-box;
- }
- body {
-    font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
 
- }
- h1 {
-    text-align: center;
- }
- .container {
-    width: 59%;
-    background-color: rgb(231, 231, 231);
-    border-radius: 20px;
 
- }
- .python, .css, .html, .delphi {
-    text-align: center;
-    font-weight: bolder;
-    padding-top: 4px;
-    padding-bottom: 3px;
-    color: white;
-    border-radius: 20px;
 
- }
- .python {
-    width: 90%;
-    background-color: #4caf50;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+  /* burada animation background denemesi yaptım */
+  body {
+    background: linear-gradient(-45deg,  black, black, #272333,#272333);
+    background-size: 400% 400%;
+    animation: gradient 13s ease infinite;
+    }
     
+    @keyframes gradient {
+    0% {
+    background-position: 0% 50%;
+    }
+    50% {
+    background-position: 100% 50%;
+    }
+    100% {
+    background-position: 0% 50%;
+    }
+    }
 
- }
- .css {
-    width: 80%;
-    background-color: #2196f3;
- }
- .html {
-    width: 65%;
-    background-color: #f44336;
- }
- .delphi {
-    width: 60%;
-    background-color: #808080;
- }
-
- .skillbar {
-
-    padding-left: 29em;
- }
-
- #footer{
-
-   text-align: center;
-   font-size: 0.9rem;
-   color: #ffffff;
- }
- p {
-
-   padding-left: 10px;
-   padding-right: 10px;
-   text-align: left;
-   margin-bottom: 2em;
-   text-align: center;
-   font-size: 1.0rem;
-   font-weight: 300;
-   line-height: 1.80;
-   color: #ffffff;
-   font-family: 'Montserrat', sans-serif;
-
- 
- 
-}

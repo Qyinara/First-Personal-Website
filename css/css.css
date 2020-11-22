@@ -4,6 +4,50 @@
     font-family: 'Roboto', sans-serif;
 }
 
+/* iki body var biliyorum halledicem */
+
+
+
+
+
+/* burada animation background denemesi yaptım */
+
+
+
+
+
+body {
+  background: linear-gradient(-45deg,  black, black, #272333,#272333);
+  background-size: 400% 400%;
+  animation: gradient 13s ease infinite;
+  }
+  
+  @keyframes gradient {
+  0% {
+  background-position: 0% 50%;
+  }
+  50% {
+  background-position: 100% 50%;
+  }
+  100% {
+  background-position: 0% 50%;
+  }
+  }
+
+
+
+img {
+
+width: 200px;    
+
+  }
+
+
+
+
+/* -----------------------------------*/
+
+
 
   ul {
     list-style-type: none;
